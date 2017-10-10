@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringJDBC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringJDBC_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringJDBC/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringJDBC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Documents/jars/mysql-connector-java-3.1.14/mysql-connector-java-3.1.14-bin.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/jars/lombok.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="SpringJDBC" />
+          <element id="file-copy" path="$USER_HOME$/Documents/jars/druid-1.1.4.jar" />
+          <element id="library" level="project" name="Spring-4.3.10.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
